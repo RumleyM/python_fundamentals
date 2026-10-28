@@ -3,6 +3,12 @@ This program calculates the area of a circle
 using a radius entered by the user.
 """
 
+name = input("Enter your name: ").strip()
+formatted_name = name.title()
+
+print(f"Hello, {formatted_name}!")
+print(f"Your name has {len(formatted_name)} characters.")
+
 while True:
     try:
         radius = float(input("Enter the radius of the circle: "))
